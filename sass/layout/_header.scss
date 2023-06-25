@@ -1,0 +1,43 @@
+.header {
+
+  &__typo {
+    width: 100%;
+    margin: 6rem auto 0 auto;
+    text-align: center;
+  }
+
+  &__url {
+    color: $color-primary-blue;
+    position: relative;
+  }
+
+  &__url > span:last-child {
+    position: absolute;
+    top: 2rem;
+    left: 25%;
+  }
+
+  &__sub {
+    font-size: 1.8rem;
+    width: 55%;
+    margin: auto;
+
+    padding: 2rem 0;
+  }
+
+  &__btn {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+
+    margin-top: 2rem;
+  }
+
+  .converter {
+    margin-top: 4rem;
+
+    &__img-bottom {
+      width: 100%;
+    }
+  }
+}

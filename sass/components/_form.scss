@@ -1,0 +1,74 @@
+.form {
+  background: $color-neutral-white;
+  font-family: Gilroy-medium;
+  padding: 4.2rem;
+  border-radius: 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  flex: 0 0 auto;
+  width: 40%;
+
+  &__contain {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  &__custom {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  &__domain,
+  &__alias,
+  &__paste,
+  &__button {
+    display: inline-block;
+    font-family: Gilroy-Medium;
+    color: $color-primary-blue;
+    border: 1px solid $color-primary-blue;
+    border-radius: 1rem;
+    width: 100%;
+    padding: 1rem;
+    outline: none;
+  }
+
+  input::placeholder {
+    font-family: Gilroy-Medium;
+    color: $color-primary-blue;
+  }
+
+  &__button {
+    background: $color-primary-blue;
+    color: $color-neutral-white;
+  }
+
+  &__button[value="Trim URL"] {
+    font-family: Gilroy-Bold;
+  }
+
+  &__policy {
+    flex: 0 0 auto;
+    width: 85%;
+    padding: 2rem 0;
+    color: $color-primary-blue;
+  }
+
+  &__policy a {
+    display: inline-block;
+    text-decoration: none;
+    color: darken($color-primary-blue, 7);
+  }
+
+  label {
+    position: absolute;
+    top: 12rem;
+    left: 26rem;
+  }
+}

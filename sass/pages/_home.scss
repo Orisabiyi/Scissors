@@ -1,0 +1,68 @@
+.section-possibility {
+  padding: 0 0 3rem 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12rem;
+}
+
+.section-plans {
+  padding: 6rem 0;
+  text-align: center;
+}
+
+.section-url {
+  background: url(../../asset/curve-2.png), url(../../asset/curve-1.png), $color-dark-blue;
+  background-position: bottom right, left top;
+  background-repeat: no-repeat, no-repeat;
+  padding: 9rem 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-faqs {
+  padding: 10rem 30rem;
+  background: url(../../asset/faq-curve-2.png), url(../../asset/faq-curve-1.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position:bottom right, left top;
+}
+
+.section-cta {
+  text-align: center;
+  padding: 15rem 30rem;
+  background: url(../../asset/cta-curve-2.svg), url(../../asset/cta-curve-1.svg), $color-dark-blue;
+  background-position: bottom right, left top;
+  background-repeat: no-repeat, no-repeat;
+  color: $color-neutral-white;
+}
+
+.footer {
+  padding: 9rem;
+  background: url(../../asset/footer-2.svg), url(../../asset/footer-1.svg);
+  background-position: bottom right, left top;
+  background-repeat: no-repeat, no-repeat;
+
+  &__detail {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+  }
+
+  &__company {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__info {
+    display: flex;
+    gap: 5rem;
+  }
+
+  &__col {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+}

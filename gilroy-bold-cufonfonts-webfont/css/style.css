@@ -1,0 +1,368 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+@font-face {
+  font-family: Gilroy-Bold;
+  src: url("../gilroy-bold-cufonfonts-webfont/Gilroy-Bold.woff") format("woff"); }
+
+@font-face {
+  font-family: Gilroy-Heavy;
+  src: url("../gilroy-bold-cufonfonts-webfont/Gilroy-Heavy.woff") format("woff"); }
+
+@font-face {
+  font-family: Gilroy-Light;
+  src: url("../gilroy-bold-cufonfonts-webfont/Gilroy-Light.woff") format("woff"); }
+
+@font-face {
+  font-family: Gilroy-Medium;
+  src: url("../gilroy-bold-cufonfonts-webfont/Gilroy-Medium.woff") format("woff"); }
+
+@font-face {
+  font-family: Gilroy-Regular;
+  src: url("../gilroy-bold-cufonfonts-webfont/Gilroy-Regular.woff") format("woff"); }
+
+body {
+  font-size: 1.6rem;
+  font-family: Gilroy-Regular, sans-serif;
+  line-height: 1.6; }
+
+.header-main {
+  font-size: 4.5rem;
+  font-family: Gilroy-Bold;
+  text-transform: capitalize; }
+  .header-main--1, .header-main--2 {
+    display: block; }
+
+.heading-2 {
+  font-size: 3.6rem;
+  font-family: Gilroy-Bold; }
+
+.paragraph {
+  font-size: 1.6rem;
+  font-family: Gilroy-Medium;
+  color: #000; }
+  .paragraph__heading-main {
+    font-size: 2.4rem;
+    font-family: inherit; }
+  .paragraph__heading-sub {
+    font-size: 2rem; }
+
+.heading-4 {
+  font-size: 1.4rem;
+  font-family: Gilroy-Bold; }
+
+.u-center-text {
+  text-align: center;
+  width: 50%;
+  margin: auto; }
+
+.align-text-right {
+  text-align: right; }
+
+.margin-bottom-2 {
+  margin-bottom: 2rem; }
+
+.margin-bottom-3 {
+  margin-bottom: 3rem; }
+
+.margin-top-5 {
+  margin-top: 5rem; }
+
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem; }
+
+.btn {
+  font-size: 1.8rem;
+  color: #000; }
+  .btn:link, .btn:visited {
+    display: inline-block;
+    text-decoration: none; }
+  .btn--1 {
+    color: #0065FE; }
+    .btn--1x {
+      border: 1px solid #0065FE;
+      padding: 5px 3rem;
+      border-radius: 2rem; }
+  .btn--2 {
+    background-color: #0065FE;
+    color: #fff;
+    padding: 5px 3rem;
+    border-radius: 2rem; }
+  .btn--2:hover {
+    background-color: #0057da; }
+
+.text-blue {
+  color: #0065FE; }
+
+.heading-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem; }
+
+.collection {
+  list-style: none; }
+  .collection__list {
+    font-size: 1.6rem;
+    font-family: Gilroy-Medium; }
+
+.form {
+  background: #fff;
+  font-family: Gilroy-medium;
+  padding: 4.2rem;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 40%; }
+  .form__contain {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem; }
+  .form__custom {
+    display: flex;
+    align-items: center;
+    gap: 2rem; }
+  .form__domain, .form__alias, .form__paste, .form__button {
+    display: inline-block;
+    font-family: Gilroy-Medium;
+    color: #0065FE;
+    border: 1px solid #0065FE;
+    border-radius: 1rem;
+    width: 100%;
+    padding: 1rem;
+    outline: none; }
+  .form input::placeholder {
+    font-family: Gilroy-Medium;
+    color: #0065FE; }
+  .form__button {
+    background: #0065FE;
+    color: #fff; }
+  .form__button[value="Trim URL"] {
+    font-family: Gilroy-Bold; }
+  .form__policy {
+    flex: 0 0 auto;
+    width: 85%;
+    padding: 2rem 0;
+    color: #0065FE; }
+  .form__policy a {
+    display: inline-block;
+    text-decoration: none;
+    color: #0057da; }
+  .form label {
+    position: absolute;
+    top: 12rem;
+    left: 26rem; }
+
+.subscribe {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; }
+  .subscribe__basic, .subscribe__teams {
+    text-align: left;
+    padding: 2.4rem 9.8rem 4.5rem 8.7rem;
+    border: 1px solid #0065FE;
+    border-radius: 1.5rem; }
+  .subscribe__basic {
+    transform: translateX(5rem); }
+  .subscribe__teams {
+    transform: translateX(-5rem); }
+  .subscribe__professional {
+    text-align: left;
+    padding: 9.5rem 10.6rem 14.8rem 6.5rem;
+    background: #1E3448;
+    border-radius: 1.5rem;
+    color: #fff;
+    z-index: 2; }
+  .subscribe__list {
+    font-size: 1.4rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; }
+  .subscribe__item {
+    display: flex;
+    align-items: center;
+    gap: 1rem; }
+  .subscribe__icon {
+    width: 1.3rem;
+    height: 1.3rem; }
+  .subscribe__icon > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+.faqs__collection {
+  margin-top: 3rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem; }
+
+.faqs__item {
+  border-bottom: 1px solid #D6D6D6;
+  padding: 1rem 0; }
+
+.faqs__question {
+  font-family: Gilroy-Medium;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch; }
+
+.features {
+  padding: 6rem 10rem;
+  display: flex;
+  gap: 7rem; }
+  .features__purpose {
+    flex: 2; }
+  .features__purpose > p {
+    padding-left: 3rem; }
+  .features__list {
+    display: flex;
+    gap: 3rem;
+    flex: 3; }
+    .features__list--1, .features__list--2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex: 0 0 50%;
+      gap: 6rem; }
+
+.header__typo {
+  width: 100%;
+  margin: 6rem auto 0 auto;
+  text-align: center; }
+
+.header__url {
+  color: #0065FE;
+  position: relative; }
+
+.header__url > span:last-child {
+  position: absolute;
+  top: 2rem;
+  left: 25%; }
+
+.header__sub {
+  font-size: 1.8rem;
+  width: 55%;
+  margin: auto;
+  padding: 2rem 0; }
+
+.header__btn {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  margin-top: 2rem; }
+
+.header .converter {
+  margin-top: 4rem; }
+  .header .converter__img-bottom {
+    width: 100%; }
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 12rem; }
+  .nav__icon {
+    margin-right: auto; }
+  .nav__collection {
+    list-style: none;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    gap: 4rem; }
+  .nav__btn {
+    display: flex;
+    align-items: center;
+    gap: 2rem; }
+  .nav__btn--1 {
+    color: #0065FE; }
+
+.reviews {
+  display: flex;
+  gap: 7rem;
+  background: rgba(0, 101, 254, 0.05);
+  padding: 6rem 10rem; }
+  .reviews__list {
+    font-family: Gilroy-Medium;
+    list-style: none;
+    margin-left: auto;
+    display: flex;
+    gap: 7rem; }
+  .reviews__item > span {
+    display: block;
+    font-size: 2.5rem; }
+  .reviews__item > span:last-child {
+    font-size: 1.6rem; }
+  .reviews__sub {
+    display: block; }
+
+.section-possibility {
+  padding: 0 0 3rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12rem; }
+
+.section-plans {
+  padding: 6rem 0;
+  text-align: center; }
+
+.section-url {
+  background: url(../../asset/curve-2.png), url(../../asset/curve-1.png), #1E3448;
+  background-position: bottom right, left top;
+  background-repeat: no-repeat, no-repeat;
+  padding: 9rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.section-faqs {
+  padding: 10rem 30rem;
+  background: url(../../asset/faq-curve-2.png), url(../../asset/faq-curve-1.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom right, left top; }
+
+.section-cta {
+  text-align: center;
+  padding: 15rem 30rem;
+  background: url(../../asset/cta-curve-2.svg), url(../../asset/cta-curve-1.svg), #1E3448;
+  background-position: bottom right, left top;
+  background-repeat: no-repeat, no-repeat;
+  color: #fff; }
+
+.footer {
+  padding: 9rem;
+  background: url(../../asset/footer-2.svg), url(../../asset/footer-1.svg);
+  background-position: bottom right, left top;
+  background-repeat: no-repeat, no-repeat; }
+  .footer__detail {
+    display: flex;
+    justify-content: center;
+    gap: 5rem; }
+  .footer__company {
+    display: flex;
+    flex-direction: column; }
+  .footer__info {
+    display: flex;
+    gap: 5rem; }
+  .footer__col {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem; }

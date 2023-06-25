@@ -1,0 +1,28 @@
+.reviews {
+  display: flex;
+  gap: 7rem;
+  background: rgba($color-primary-blue, .05);
+  padding: 6rem 10rem;
+  
+  &__list {
+    font-family: Gilroy-Medium;
+    list-style: none;
+    margin-left: auto;
+
+    display: flex;
+    gap: 7rem;
+  }
+
+  &__item > span {
+    display: block;
+    font-size: 2.5rem;
+  }
+
+  &__item > span:last-child {
+    font-size: 1.6rem;
+  }
+
+  &__sub {
+    display: block;
+  }
+}

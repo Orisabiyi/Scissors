@@ -1,0 +1,23 @@
+.faqs {
+
+  &__collection {
+    margin-top: 3rem;
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  &__item {
+    border-bottom: 1px solid $color-grey-light;
+    padding: 1rem 0;
+  }
+
+  &__question {
+    font-family: Gilroy-Medium;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+}

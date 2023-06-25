@@ -1,0 +1,35 @@
+.header-main {
+  font-size: 4.5rem;
+  font-family: Gilroy-Bold;
+  text-transform: capitalize;
+
+  &--1,
+  &--2 {
+    display: block;
+  }
+}
+
+.heading-2 {
+  font-size: 3.6rem;
+  font-family: Gilroy-Bold;
+}
+
+.paragraph {
+  font-size: 1.6rem;
+  font-family: Gilroy-Medium;
+  color: $color-main-black;
+
+  &__heading-main {
+    font-size: 2.4rem;
+    font-family: inherit;
+  }
+
+  &__heading-sub {
+    font-size: 2rem;
+  }
+}
+
+.heading-4 {
+  font-size: 1.4rem;
+  font-family: Gilroy-Bold;
+}

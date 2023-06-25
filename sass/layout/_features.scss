@@ -1,0 +1,29 @@
+.features {
+  padding: 6rem 10rem;
+
+  display: flex;
+  gap: 7rem;
+
+  &__purpose {
+    flex: 2;
+  }
+
+  &__purpose > p {
+    padding-left: 3rem;
+  }
+
+  &__list {
+    display: flex;
+    gap: 3rem;
+    flex: 3;
+
+    &--1,
+    &--2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex: 0 0 50%;
+      gap: 6rem;
+    }
+  }
+}

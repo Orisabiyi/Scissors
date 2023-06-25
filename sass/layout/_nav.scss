@@ -1,0 +1,31 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 2rem 12rem;
+
+  &__icon {
+    margin-right: auto;
+  }
+
+  &__collection {
+    list-style: none;
+    margin-right: auto;
+
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+  }
+  
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  &__btn--1 {
+    color: $color-primary-blue;
+  }
+}
